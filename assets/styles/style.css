@@ -18,12 +18,15 @@ body{
 h1, h4, h3 {
   font-family: 'Archivo Narrow', sans-serif; 
 }
+
 h3{
 cursor: pointer;
 }
+
 p, li {
   font-family: 'Nunito', sans-serif;
 }
+
 img.my_photo {
   display: block;
   width: 150px;
@@ -66,18 +69,19 @@ aside p {
 aside h3 {
   text-align: center;
 }
+
 progress {
   width: 90%;
 }
+
 li{
   margin-bottom: 5px;
 }
+
 a {
   color: black;
 }
-main {
 
-}
 main h4{
 margin-bottom:  5px;
 }
@@ -86,6 +90,7 @@ margin-bottom:  5px;
   color: rgba(128, 128, 128, 0.822);
   margin: 0;
 }
+
 .phone:before {
   content: "\f095"; 
   font-family: FontAwesome;
@@ -93,6 +98,7 @@ margin-bottom:  5px;
   margin-left: 10px;
   margin-right: 5px;
 }
+
 .city:before {
     content: " \f041"; 
     font-family: FontAwesome;
@@ -127,7 +133,6 @@ margin-bottom:  5px;
     color: #000000;
     margin-right: 10px;
 }
-
 
 .main h4::before{
   content: "\f10c"; 
@@ -223,8 +228,6 @@ h3 {
 .hide {
   height: 3em;
   transition: 2s ease-out;
-
-  
 }
 
 
