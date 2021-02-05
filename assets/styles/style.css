@@ -45,7 +45,7 @@ img.my_photo {
 }
 
 aside {
-  width: 800px;
+  /* width: 800px; */
   padding: 10px;
   border-right: 1px solid gray;
 
@@ -230,5 +230,23 @@ h3 {
   transition: 2s ease-out;
 }
 
+@media screen and (max-width: 900px) {
+  .main {
+    margin: 0px 20px;
+    /* background-color: brown; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+ 	 .container {
+      display: block;
+    }
+    body {
+      font-size: 35px;
+    }
+    .container main * {
+      height:max-content;
+    }
+  }
 
 
