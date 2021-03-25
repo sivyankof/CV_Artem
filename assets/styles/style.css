@@ -188,7 +188,7 @@ h3 {
   overflow: hidden;
 }
 .skills {
-  height: 36em;
+  height: 42em;
   transition: 2s ease-out;
   overflow: hidden;
 }
@@ -204,7 +204,7 @@ h3 {
 }
 
 .profile{
-  height: 19em;
+  height: 16em;
   transition: 2s ease-out;
   overflow: hidden;
 }
