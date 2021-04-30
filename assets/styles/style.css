@@ -1,106 +1,111 @@
-body{
-  background-color: rgba(95, 158, 160, 0.39);
-  margin: 0;
+body {
+    background-color: rgba(95, 158, 160, 0.39);
+    margin: 0;
 }
-.main {
-  margin: 0% 15% 0% 15%;
-  display: block;
-  background-color: whitesmoke;
-  padding-top: 20px;
-  min-height: 150vh;
-  box-shadow: 6px 5px 11px rgba(0,0,0,0.25), 2px -3px 29px rgba(0,0,0,0.22);
+.wrapper {
+    margin: 0% 15% 0% 15%;
+    display: block;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    min-height: 150vh;
+    box-shadow: 6px 5px 11px rgba(0, 0, 0, 0.25),
+        2px -3px 29px rgba(0, 0, 0, 0.22);
 }
 
 .container {
-  display: flex;
+    display: flex;
 }
 
-h1, h4, h3 {
-  font-family: 'Archivo Narrow', sans-serif; 
+h1,
+h4,
+h3 {
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
-h3{
-cursor: pointer;
+h3 {
+    cursor: pointer;
 }
 
-p, li {
-  font-family: 'Nunito', sans-serif;
+p,
+li {
+    font-family: 'Nunito', sans-serif;
 }
 
 img.my_photo {
-  display: block;
-  width: 150px;
-  margin: auto;
-  border-radius: 10px;
-  box-shadow: 6px 5px 30px rgba(0,0,0,0.25), 21px 12px 33px rgba(0,0,0,0.22);}
+    display: block;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 6px 5px 30px rgba(0, 0, 0, 0.25),
+        21px 12px 33px rgba(0, 0, 0, 0.22);
+}
 .my_name {
-  font-size: 35px;
-  text-align: center;
-  margin: 5px;
-  
+    font-size: 35px;
+    text-align: center;
+    margin: 5px;
 }
 .short {
-  color: rgb(90, 90, 90);
-  text-align: center;
+    color: rgb(90, 90, 90);
+    text-align: center;
 }
 
-aside {
-  /* width: 800px; */
-  padding: 10px;
-  border-right: 1px solid gray;
-
+.container-aside {
+    padding: 10px;
+    border-right: 1px solid gray;
 }
-main {
-  padding: 10px;
+
+.container-main {
+    padding: 10px;
 }
 
 ul {
-  list-style: none;
-  text-align: center;
-  padding-left: 0px;
-  color: rgb(55, 55, 55);
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    color: rgb(55, 55, 55);
 }
 
-aside p {
-  margin-bottom: 0;
-  text-align: center;
+.container-aside p {
+    margin: 0;
+    text-align: center;
 }
 
-aside h3 {
-  text-align: center;
+.container-aside h3 {
+    text-align: center;
 }
 
-progress {
-  width: 90%;
+.skills progress,
+.languages progress {
+    width: 90%;
 }
 
-li{
-  margin-bottom: 5px;
+li {
+    margin-bottom: 5px;
 }
 
 a {
-  color: black;
+    color: black;
 }
 
-main h4{
-margin-bottom:  5px;
+.container-main h4 {
+    margin-bottom: 5px;
 }
 
 .textGray {
-  color: rgba(128, 128, 128, 0.822);
-  margin: 0;
+    color: rgba(128, 128, 128, 0.822);
+    margin: 0;
 }
 
 .phone:before {
-  content: "\f095"; 
-  font-family: FontAwesome;
-  color: #000000;
-  margin-left: 10px;
-  margin-right: 5px;
+    content: '\f095';
+    font-family: FontAwesome;
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 .city:before {
-    content: " \f041"; 
+    content: ' \f041';
     font-family: FontAwesome;
     color: #000000;
     margin-left: 10px;
@@ -108,145 +113,151 @@ margin-bottom:  5px;
 }
 
 .profile h3:before {
-    content: "\f007"; 
+    content: '\f007';
     font-family: FontAwesome;
     color: #000000;
     margin-right: 10px;
-    /* margin-left: -28px; */
-
 }
 .employment h3:before {
-    content: "\f0f2"; 
+    content: '\f0f2';
     font-family: FontAwesome;
     color: #000000;
     margin-right: 10px;
 }
 .education h3:before {
-    content: "\f19d"; 
+    content: '\f19d';
     font-family: FontAwesome;
     color: #000000;
     margin-right: 10px;
 }
 .courses h3::before {
-    content: "\f091"; 
+    content: '\f091';
     font-family: FontAwesome;
     color: #000000;
     margin-right: 10px;
 }
 
-.main h4::before{
-  content: "\f10c"; 
-  font-family: FontAwesome;
-  color: #000000;
-  margin-right: 10px;
-  font-size: 8px;
-  position: relative;
-  top: -3px;
+.main h4::before {
+    content: '\f10c';
+    font-family: FontAwesome;
+    color: #000000;
+    margin-right: 10px;
+    font-size: 8px;
+    position: relative;
+    top: -3px;
 }
-.profile p:before{
-  content: "\f10c"; 
-  font-family: FontAwesome;
-  color: #000000;
-  margin-right: 10px;
-  font-size: 8px;
-  position: relative;
-  top: -3px;
+.profile p:before {
+    content: '\f10c';
+    font-family: FontAwesome;
+    color: #000000;
+    margin-right: 10px;
+    font-size: 8px;
+    position: relative;
+    top: -3px;
+}
+.my-works h3::before {
+    content: '\f0f2';
+    font-family: FontAwesome;
+    color: #000000;
+    margin-right: 10px;
 }
 
 .detals {
-  height: 9em;
-  transition: 2s ease-out;
-  overflow: hidden;
-  text-decoration: none;
-
+    min-height: 9em;
+    transition: 2s ease-out;
+    overflow: hidden;
+    text-decoration: none;
 }
 h3 {
-	position: relative;
-	color: black; 
-	cursor: pointer;
-	line-height: 1;
-	text-decoration: none; 
+    position: relative;
+    color: black;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
 }
 .container h3:after {
-	display: block;
-	position: relative;
-	left: 0; 
-	width: 0;
-	height: 2px;
-	background-color: black; 
-	content: "";
-  transition: width 0.3s ease-out; 
-  top: 2px;
+    display: block;
+    position: relative;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    content: '';
+    transition: width 0.3s ease-out;
+    top: 2px;
 }
 .container h3:hover:after,
 .container h3:focus:after {
-	width: 100%; 
+    width: 100%;
 }
 .links {
-  height: 9em;
-  transition: 2s ease-out;
-  overflow: hidden;
+    min-height: 9em;
+    transition: 2s ease-out;
+    overflow: hidden;
 }
 .skills {
-  height: 42em;
-  transition: 2s ease-out;
-  overflow: hidden;
+    min-height: 30em;
+    transition: 2s ease-out;
+    overflow: hidden;
 }
 .hobbies {
-  height: 13em;
-  transition: 2s ease-out;
-  overflow: hidden;
+    min-height: 13em;
+    transition: 2s ease-out;
+    overflow: hidden;
 }
 .languages {
-  height: 10em;
-  transition: 2s ease-out;
-  overflow: hidden;
+    min-height: 10em;
+    transition: 2s ease-out;
+    overflow: hidden;
 }
 
-.profile{
-  height: 16em;
-  transition: 2s ease-out;
-  overflow: hidden;
+.profile {
+    min-height: 15em;
+    transition: 2s ease-out;
+    overflow: hidden;
 }
-.employment{
-  height: 10em;
-  transition: 2s ease-out;
-  overflow: hidden;
+.employment {
+    min-height: 10em;
+    transition: 2s ease-out;
+    overflow: hidden;
 }
 .education {
-  height: 10em;
-  transition: 2s ease-out;
-  overflow: hidden;
+    min-height: 10em;
+    transition: 2s ease-out;
+    overflow: hidden;
 }
 
 .courses {
-  height: 25em;
-  transition: 2s ease-out;
-  overflow: hidden;
+    min-height: 15em;
+    transition: 2s ease-out;
+    overflow: hidden;
+}
+.my-works ul {
+    text-align: start;
+}
+.my-works p {
+    margin-bottom: 5px;
 }
 
 .hide {
-  height: 3em;
-  transition: 2s ease-out;
+    min-height: 3em;
+    transition: 2s ease-out;
 }
 
 @media screen and (max-width: 900px) {
-  .main {
-    margin: 0px 20px;
-    /* background-color: brown; */
-  }
+    .container-main {
+        margin: 0px 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
- 	 .container {
-      display: block;
+    .container {
+        display: block;
     }
     body {
-      font-size: 35px;
+        font-size: 20px;
     }
-    .container main * {
-      height:max-content;
+    .container .container-main * {
+        min-height: max-content;
     }
-  }
-
-
+}
